@@ -1,7 +1,6 @@
 import java.util.Arrays;
 public class memory {
     public static void main(String[] args) {
-
         int value = 33;
         changeValue(value);
         System.out.println(value);
