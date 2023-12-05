@@ -15,7 +15,13 @@ public class memory {
         changeArrayValue(array);
         System.out.println(Arrays.toString(array));
         System.out.println("-----------------");
-
+        Person p = new Person("Lypis" , "Trubetskoy");
+        p.changePerson(p);
+        System.out.println(p);
+        System.out.println("-----------------");
+        p.changePerson2(p);
+        System.out.println(p);
+        System.out.println("-----------------");
     }
 
     private static void changeValue(int value) {
